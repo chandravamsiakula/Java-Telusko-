@@ -27,6 +27,9 @@ public class Demo {
         for(int i=0;i<studentDetails.length;i++){
             System.out.println(studentDetails[i].name+" : "+studentDetails[i].rno);
         }
+        for(Student st : studentDetails ){
+            System.out.println(st.name+" : "+st.rno);
+        }
         
 
 
